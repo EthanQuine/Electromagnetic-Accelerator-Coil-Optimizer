@@ -30,50 +30,48 @@ function App() {
 
   return (
     <div className={styles.container}>
-      <div className={styles.innerContainer}>
-        <div className={styles.content}>
-          <SelectItem
-            label="Select Coil Gauge:"
-            items={coilGauges}
-            value={gauge}
-            onChange={setGauge}
+      <div className={styles.content}>
+        <SelectItem
+          label="Select Coil Gauge:"
+          items={coilGauges}
+          value={gauge}
+          onChange={setGauge}
+        />
+        <SelectItem
+          label="Select Coil Diameter:"
+          items={coilDiameters}
+          value={diameter}
+          onChange={setDiameter}
+        />
+        <SelectItem
+          label="Select Coil Material Type:"
+          items={materials}
+          value={material}
+          onChange={setMaterial}
+        />
+        <SelectItem
+          label="Select Coil Length:"
+          items={coilLengths}
+          value={length}
+          onChange={setLength}
+        />
+        <div className={styles.button}>
+          <Button
+            label="Calculate"
+            onClick={() =>
+              alert(
+                `Gauge: ${gauge}; Diameter: ${diameter}; Material: ${material}; Length: ${length}`
+              )
+            }
           />
-          <SelectItem
-            label="Select Coil Diameter:"
-            items={coilDiameters}
-            value={diameter}
-            onChange={setDiameter}
-          />
-          <SelectItem
-            label="Select Coil Material Type:"
-            items={materials}
-            value={material}
-            onChange={setMaterial}
-          />
-          <SelectItem
-            label="Select Coil Length:"
-            items={coilLengths}
-            value={length}
-            onChange={setLength}
-          />
-          <div className={styles.button}>
-            <Button
-              label="Calculate"
-              onClick={() =>
-                alert(
-                  `Gauge: ${gauge}; Diameter: ${diameter}; Material: ${material}; Length: ${length}`
-                )
-              }
-            />
-          </div>
-          <div className={styles.results}>
-            <span>diameter: TODO</span>
-            <span>current: TODO</span>
-            <span>area: TODO</span>
-            <span>resistance: TODO</span>
-            <span>inductance: TODO</span>
-            <span>number of wraps: TODO</span>
-          </div>
+        </div>
+        <div className={styles.results}>
+          <span>diameter: TODO</span>
+          <span>current: TODO</span>
+          <span>area: TODO</span>
+          <span>resistance: TODO</span>
+          <span>inductance: TODO</span>
+          <span>number of wraps: TODO</span>
         </div>
       </div>
     </div>

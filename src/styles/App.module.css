@@ -1,12 +1,8 @@
 .container {
   display: flex;
   justify-content: center;
-  height: 100vh;
-}
-
-.innerContainer {
-  display: flex;
   align-items: center;
+  height: 100vh;
 }
 
 .content {
