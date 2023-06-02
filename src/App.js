@@ -10,7 +10,7 @@ const coilGauges = ["1/2 AWG"];
 const materials = ["Copper"];
 
 // array to store all possible coil diameters to select from
-const coilDiameters = ['.5"'];
+const coilDiameters = ['.5"', '1.0"'];
 
 // array to store all possible coil lengths to select from
 const coilLengths = ['6"'];
@@ -56,17 +56,10 @@ function App() {
           onChange={setLength}
         />
         <div className={styles.button}>
-          <Button
-            label="Calculate"
-            onClick={() =>
-              alert(
-                `Gauge: ${gauge}; Diameter: ${diameter}; Material: ${material}; Length: ${length}`
-              )
-            }
-          />
+          <Button label="Calculate" onClick={() => {}} />
         </div>
         <div className={styles.results}>
-          <span>diameter: TODO</span>
+          <span>diameter: {diameter}</span>
           <span>current: TODO</span>
           <span>area: TODO</span>
           <span>resistance: TODO</span>
