@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Electromagnetic-Accelerator-Coil-Optimizer/static/css/main.f90c5a6b.css",
-    "main.js": "/Electromagnetic-Accelerator-Coil-Optimizer/static/js/main.7958d1cd.js",
+    "main.css": "/Electromagnetic-Accelerator-Coil-Optimizer/static/css/main.0ae778dd.css",
+    "main.js": "/Electromagnetic-Accelerator-Coil-Optimizer/static/js/main.a9efdb06.js",
     "static/js/787.a95f83ef.chunk.js": "/Electromagnetic-Accelerator-Coil-Optimizer/static/js/787.a95f83ef.chunk.js",
     "index.html": "/Electromagnetic-Accelerator-Coil-Optimizer/index.html",
-    "main.f90c5a6b.css.map": "/Electromagnetic-Accelerator-Coil-Optimizer/static/css/main.f90c5a6b.css.map",
-    "main.7958d1cd.js.map": "/Electromagnetic-Accelerator-Coil-Optimizer/static/js/main.7958d1cd.js.map",
+    "main.0ae778dd.css.map": "/Electromagnetic-Accelerator-Coil-Optimizer/static/css/main.0ae778dd.css.map",
+    "main.a9efdb06.js.map": "/Electromagnetic-Accelerator-Coil-Optimizer/static/js/main.a9efdb06.js.map",
     "787.a95f83ef.chunk.js.map": "/Electromagnetic-Accelerator-Coil-Optimizer/static/js/787.a95f83ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f90c5a6b.css",
-    "static/js/main.7958d1cd.js"
+    "static/css/main.0ae778dd.css",
+    "static/js/main.a9efdb06.js"
   ]
 }
